@@ -15,6 +15,20 @@ public class Senasalud {
       System.out.println("su nombre es:" +nom);
       
       
+      String ape;
+      Scanner apellido =new Scanner  (System.in);
+      System.out.println("Ingrese su apellido");
+      ape=apellido.next();
+        System.out.println("su apellido es:" +ape);
+        
+      int eda;
+      Scanner edad =new Scanner  (System.in);
+      System.out.println("Ingrese su edad");
+      eda=edad.nextInt();
+      System.out.println("su edad es:" +eda);
+      
+      
+      
     }
     
 }
