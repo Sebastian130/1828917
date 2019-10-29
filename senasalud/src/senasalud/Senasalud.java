@@ -25,7 +25,13 @@ public class Senasalud {
       Scanner edad =new Scanner  (System.in);
       System.out.println("Ingrese su edad");
       eda=edad.nextInt();
-      System.out.println("su edad es:" +eda);
+        System.out.println("su edad es:" +eda);
+        
+      String instru;
+      Scanner instrumento =new Scanner (System.in);
+      System.out.println("Ingrese su instrumento favorito");
+      instru=instrumento.next();
+        System.out.println("su instrumento favorito es:" +instru);
       
       
       
